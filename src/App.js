@@ -47,7 +47,7 @@ class App extends Component {
           currentSelections={this.state.selected}
           handleUpdate={(feature, newValue)=>this.updateFeature(feature, newValue)}
           />
-          <PriceList />
+          <PriceList currentSelections={this.state.selected}/>
         </div>
       </main>
     );
